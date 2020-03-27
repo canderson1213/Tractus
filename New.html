@@ -1,0 +1,30 @@
+<html lang="en">
+<link rel="stylesheet" href="style.css">
+<title>Dad Jokes by the Numbers</title>
+
+<head>
+</head>
+
+<body>
+  <div class="intake">
+    <label>Enter Number of Dad Jokes:</label><br>
+    <input class="submission" type="number" id="numOfJokes" name="numOfJokes" min="1" max="10" required><br>
+    <button onclick="generateContainers()" type="submit" value="Submit" class="sub_button">Submit</button>
+  </div>
+
+    <div class = "container">
+      <div id="joke" class="joke">
+        Joke here
+      </div>
+      <button onclick="generateJoke()" class = "button">
+        Generate Joke
+      </button>
+
+    </div>
+
+  <script src="DadJoke.js"></script>
+    <div class="megaContainer">
+    </div>
+</body>
+
+</html>
